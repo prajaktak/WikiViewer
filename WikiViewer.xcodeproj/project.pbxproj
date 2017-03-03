@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9586BA41E69D16200E8E921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9586BA31E69D16200E8E921 /* AppDelegate.swift */; };
+		F9586BA61E69D16200E8E921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9586BA51E69D16200E8E921 /* ViewController.swift */; };
+		F9586BA91E69D16200E8E921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9586BA71E69D16200E8E921 /* Main.storyboard */; };
+		F9586BAB1E69D16200E8E921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9586BAA1E69D16200E8E921 /* Assets.xcassets */; };
+		F9586BAE1E69D16200E8E921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9586BAC1E69D16200E8E921 /* LaunchScreen.storyboard */; };
+		F9586BB91E69D16200E8E921 /* WikiViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9586BB81E69D16200E8E921 /* WikiViewerTests.swift */; };
+		F9586BC41E69D16200E8E921 /* WikiViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9586BC31E69D16200E8E921 /* WikiViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9586BB51E69D16200E8E921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9586B981E69D16200E8E921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9586B9F1E69D16200E8E921;
+			remoteInfo = WikiViewer;
+		};
+		F9586BC01E69D16200E8E921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9586B981E69D16200E8E921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9586B9F1E69D16200E8E921;
+			remoteInfo = WikiViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9586BA01E69D16200E8E921 /* WikiViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9586BA31E69D16200E8E921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9586BA51E69D16200E8E921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9586BA81E69D16200E8E921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9586BAA1E69D16200E8E921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9586BAD1E69D16200E8E921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9586BAF1E69D16200E8E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9586BB41E69D16200E8E921 /* WikiViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9586BB81E69D16200E8E921 /* WikiViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewerTests.swift; sourceTree = "<group>"; };
+		F9586BBA1E69D16200E8E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9586BBF1E69D16200E8E921 /* WikiViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9586BC31E69D16200E8E921 /* WikiViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewerUITests.swift; sourceTree = "<group>"; };
+		F9586BC51E69D16200E8E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9586B9D1E69D16200E8E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BB11E69D16200E8E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BBC1E69D16200E8E921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9586B971E69D16200E8E921 = {
+			isa = PBXGroup;
+			children = (
+				F9586BA21E69D16200E8E921 /* WikiViewer */,
+				F9586BB71E69D16200E8E921 /* WikiViewerTests */,
+				F9586BC21E69D16200E8E921 /* WikiViewerUITests */,
+				F9586BA11E69D16200E8E921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9586BA11E69D16200E8E921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9586BA01E69D16200E8E921 /* WikiViewer.app */,
+				F9586BB41E69D16200E8E921 /* WikiViewerTests.xctest */,
+				F9586BBF1E69D16200E8E921 /* WikiViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9586BA21E69D16200E8E921 /* WikiViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F9586BA31E69D16200E8E921 /* AppDelegate.swift */,
+				F9586BA51E69D16200E8E921 /* ViewController.swift */,
+				F9586BA71E69D16200E8E921 /* Main.storyboard */,
+				F9586BAA1E69D16200E8E921 /* Assets.xcassets */,
+				F9586BAC1E69D16200E8E921 /* LaunchScreen.storyboard */,
+				F9586BAF1E69D16200E8E921 /* Info.plist */,
+			);
+			path = WikiViewer;
+			sourceTree = "<group>";
+		};
+		F9586BB71E69D16200E8E921 /* WikiViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9586BB81E69D16200E8E921 /* WikiViewerTests.swift */,
+				F9586BBA1E69D16200E8E921 /* Info.plist */,
+			);
+			path = WikiViewerTests;
+			sourceTree = "<group>";
+		};
+		F9586BC21E69D16200E8E921 /* WikiViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9586BC31E69D16200E8E921 /* WikiViewerUITests.swift */,
+				F9586BC51E69D16200E8E921 /* Info.plist */,
+			);
+			path = WikiViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9586B9F1E69D16200E8E921 /* WikiViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9586BC81E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewer" */;
+			buildPhases = (
+				F9586B9C1E69D16200E8E921 /* Sources */,
+				F9586B9D1E69D16200E8E921 /* Frameworks */,
+				F9586B9E1E69D16200E8E921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiViewer;
+			productName = WikiViewer;
+			productReference = F9586BA01E69D16200E8E921 /* WikiViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9586BB31E69D16200E8E921 /* WikiViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9586BCB1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerTests" */;
+			buildPhases = (
+				F9586BB01E69D16200E8E921 /* Sources */,
+				F9586BB11E69D16200E8E921 /* Frameworks */,
+				F9586BB21E69D16200E8E921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9586BB61E69D16200E8E921 /* PBXTargetDependency */,
+			);
+			name = WikiViewerTests;
+			productName = WikiViewerTests;
+			productReference = F9586BB41E69D16200E8E921 /* WikiViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9586BBE1E69D16200E8E921 /* WikiViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9586BCE1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerUITests" */;
+			buildPhases = (
+				F9586BBB1E69D16200E8E921 /* Sources */,
+				F9586BBC1E69D16200E8E921 /* Frameworks */,
+				F9586BBD1E69D16200E8E921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9586BC11E69D16200E8E921 /* PBXTargetDependency */,
+			);
+			name = WikiViewerUITests;
+			productName = WikiViewerUITests;
+			productReference = F9586BBF1E69D16200E8E921 /* WikiViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9586B981E69D16200E8E921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Prajakta Kulkarni";
+				TargetAttributes = {
+					F9586B9F1E69D16200E8E921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+					};
+					F9586BB31E69D16200E8E921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9586B9F1E69D16200E8E921;
+					};
+					F9586BBE1E69D16200E8E921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6AC44Z6PNA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9586B9F1E69D16200E8E921;
+					};
+				};
+			};
+			buildConfigurationList = F9586B9B1E69D16200E8E921 /* Build configuration list for PBXProject "WikiViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9586B971E69D16200E8E921;
+			productRefGroup = F9586BA11E69D16200E8E921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9586B9F1E69D16200E8E921 /* WikiViewer */,
+				F9586BB31E69D16200E8E921 /* WikiViewerTests */,
+				F9586BBE1E69D16200E8E921 /* WikiViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9586B9E1E69D16200E8E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9586BAE1E69D16200E8E921 /* LaunchScreen.storyboard in Resources */,
+				F9586BAB1E69D16200E8E921 /* Assets.xcassets in Resources */,
+				F9586BA91E69D16200E8E921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BB21E69D16200E8E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BBD1E69D16200E8E921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9586B9C1E69D16200E8E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9586BA61E69D16200E8E921 /* ViewController.swift in Sources */,
+				F9586BA41E69D16200E8E921 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BB01E69D16200E8E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9586BB91E69D16200E8E921 /* WikiViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9586BBB1E69D16200E8E921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9586BC41E69D16200E8E921 /* WikiViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9586BB61E69D16200E8E921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9586B9F1E69D16200E8E921 /* WikiViewer */;
+			targetProxy = F9586BB51E69D16200E8E921 /* PBXContainerItemProxy */;
+		};
+		F9586BC11E69D16200E8E921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9586B9F1E69D16200E8E921 /* WikiViewer */;
+			targetProxy = F9586BC01E69D16200E8E921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9586BA71E69D16200E8E921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9586BA81E69D16200E8E921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9586BAC1E69D16200E8E921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9586BAD1E69D16200E8E921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9586BC61E69D16200E8E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9586BC71E69D16200E8E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9586BC91E69D16200E8E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9586BCA1E69D16200E8E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9586BCC1E69D16200E8E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiViewer.app/WikiViewer";
+			};
+			name = Debug;
+		};
+		F9586BCD1E69D16200E8E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiViewer.app/WikiViewer";
+			};
+			name = Release;
+		};
+		F9586BCF1E69D16200E8E921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiViewer;
+			};
+			name = Debug;
+		};
+		F9586BD01E69D16200E8E921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6AC44Z6PNA;
+				INFOPLIST_FILE = WikiViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PK.WikiViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WikiViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9586B9B1E69D16200E8E921 /* Build configuration list for PBXProject "WikiViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9586BC61E69D16200E8E921 /* Debug */,
+				F9586BC71E69D16200E8E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9586BC81E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9586BC91E69D16200E8E921 /* Debug */,
+				F9586BCA1E69D16200E8E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9586BCB1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9586BCC1E69D16200E8E921 /* Debug */,
+				F9586BCD1E69D16200E8E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9586BCE1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9586BCF1E69D16200E8E921 /* Debug */,
+				F9586BD01E69D16200E8E921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9586B981E69D16200E8E921 /* Project object */;
+}
