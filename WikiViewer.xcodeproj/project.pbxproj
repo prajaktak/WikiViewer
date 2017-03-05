@@ -20,6 +20,7 @@
 		F9586BE71E69DE4100E8E921 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9586BE51E69DE4100E8E921 /* MainInterface.storyboard */; };
 		F9586BEB1E69DE4100E8E921 /* WikiSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F9586BDE1E69DE4100E8E921 /* WikiSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F9586BEE1E69DE4100E8E921 /* WikiSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F9586BD51E69DE4100E8E921 /* WikiSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F9F6DD4A1E6C8F66000F9668 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F6DD491E6C8F66000F9668 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		F9586BE31E69DE4100E8E921 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		F9586BE61E69DE4100E8E921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F9586BE81E69DE4100E8E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F6DD491E6C8F66000F9668 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9F6DD4B1E6CBFB1000F9668 /* WikiViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WikiViewer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F6DD4A1E6C8F66000F9668 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +164,7 @@
 		F9586BA21E69D16200E8E921 /* WikiViewer */ = {
 			isa = PBXGroup;
 			children = (
+				F9F6DD4B1E6CBFB1000F9668 /* WikiViewer.entitlements */,
 				F9586BA31E69D16200E8E921 /* AppDelegate.swift */,
 				F9586BA51E69D16200E8E921 /* ViewController.swift */,
 				F9586BA71E69D16200E8E921 /* Main.storyboard */,
@@ -200,6 +205,7 @@
 		F9586BDF1E69DE4100E8E921 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9F6DD491E6C8F66000F9668 /* CoreLocation.framework */,
 				F9586BE01E69DE4100E8E921 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
@@ -322,6 +328,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6AC44Z6PNA;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					F9586BB31E69D16200E8E921 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -602,6 +613,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WikiViewer/WikiViewer.entitlements;
 				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = WikiViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -616,6 +628,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WikiViewer/WikiViewer.entitlements;
 				DEVELOPMENT_TEAM = 6AC44Z6PNA;
 				INFOPLIST_FILE = WikiViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -754,6 +767,7 @@
 				F9586BCA1E69D16200E8E921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9586BCB1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +776,7 @@
 				F9586BCD1E69D16200E8E921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9586BCE1E69D16200E8E921 /* Build configuration list for PBXNativeTarget "WikiViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +785,7 @@
 				F9586BD01E69D16200E8E921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9586BEF1E69DE4100E8E921 /* Build configuration list for PBXNativeTarget "WikiSiriUI" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +794,7 @@
 				F9586BF11E69DE4100E8E921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9586BF21E69DE4100E8E921 /* Build configuration list for PBXNativeTarget "WikiSiri" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +803,7 @@
 				F9586BF41E69DE4100E8E921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

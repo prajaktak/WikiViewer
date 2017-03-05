@@ -17,6 +17,15 @@ import Intents
 // "<myApp> John saying hello"
 // "Search for messages in <myApp>"
 
+enum customSrings: String, CustomStringConvertible
+{
+    case india
+    case tajMahal
+    
+    var description: String{
+        return self.rawValue.capitalized;
+    }
+}
 class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessagesIntentHandling, INSetMessageAttributeIntentHandling {
     
     override func handler(for intent: INIntent) -> Any {
