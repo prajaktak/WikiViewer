@@ -5,29 +5,28 @@
 	<key>ParameterVocabularies</key>
 	<array>
 		<dict>
-			<key>IntentName</key>
-			<string>INRequestRideIntent</string>
-			<key>IntentExamples</key>
-			<array>
-				<string>&quot;Check if I get UberGo&quot;</string>
-				<string>&quot;UberGo is easy option&quot;</string>
-			</array>
-		</dict>
-		<dict>
 			<key>ParameterNames</key>
 			<array>
-				<string></string>
+				<string>INRequestRideIntent.rideOptionName</string>
 			</array>
 			<key>ParameterVocabulary</key>
 			<array>
 				<dict>
 					<key>VocabularyItemIdentifier</key>
-					<string></string>
+					<string>uber_Go</string>
 					<key>VocabularyItemSynonyms</key>
 					<array>
 						<dict>
 							<key>VocabularyItemPhrase</key>
-							<string></string>
+							<string>Uber Go</string>
+							<key>VocabularyItemPronunciation</key>
+							<string>oo ber go</string>
+							<key>VocabularyItemExamples</key>
+							<array>
+								<string>Book UberGo</string>
+								<string>Is UberGo availbele</string>
+								<string>Get price for UberGo ride</string>
+							</array>
 						</dict>
 					</array>
 				</dict>
