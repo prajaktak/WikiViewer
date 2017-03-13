@@ -21,6 +21,9 @@
 		F9586BEB1E69DE4100E8E921 /* WikiSiriUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F9586BDE1E69DE4100E8E921 /* WikiSiriUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F9586BEE1E69DE4100E8E921 /* WikiSiri.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F9586BD51E69DE4100E8E921 /* WikiSiri.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F9F6DD4A1E6C8F66000F9668 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F6DD491E6C8F66000F9668 /* CoreLocation.framework */; };
+		F9F6DD511E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F6DD501E76CE5D000F9668 /* AppIntentVocabulary.plist */; };
+		F9F6DD521E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F6DD501E76CE5D000F9668 /* AppIntentVocabulary.plist */; };
+		F9F6DD531E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9F6DD501E76CE5D000F9668 /* AppIntentVocabulary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,7 @@
 		F9586BE81E69DE4100E8E921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9F6DD491E6C8F66000F9668 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F9F6DD4B1E6CBFB1000F9668 /* WikiViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WikiViewer.entitlements; sourceTree = "<group>"; };
+		F9F6DD501E76CE5D000F9668 /* AppIntentVocabulary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppIntentVocabulary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				F9586BD71E69DE4100E8E921 /* IntentHandler.swift */,
+				F9F6DD501E76CE5D000F9668 /* AppIntentVocabulary.plist */,
 				F9586BD91E69DE4100E8E921 /* Info.plist */,
 			);
 			path = WikiSiri;
@@ -387,6 +392,7 @@
 			files = (
 				F9586BAE1E69D16200E8E921 /* LaunchScreen.storyboard in Resources */,
 				F9586BAB1E69D16200E8E921 /* Assets.xcassets in Resources */,
+				F9F6DD511E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */,
 				F9586BA91E69D16200E8E921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F6DD521E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F6DD531E76CE5D000F9668 /* AppIntentVocabulary.plist in Resources */,
 				F9586BE71E69DE4100E8E921 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
